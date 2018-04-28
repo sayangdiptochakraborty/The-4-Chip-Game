@@ -14,5 +14,5 @@ This will be a purely HTML5, CSS and JS based game with no Adobe Plugin needed.
 I might make an online version where you are connected to a random player or computer against you!
 
 
-*V-0 (28 April,2018)*
+**V-0 (28 April,2018)**
 Created the outline of the game. The page is static as of now, I will update the JS file asap!
