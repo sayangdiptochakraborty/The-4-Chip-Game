@@ -4,18 +4,20 @@
         <title>The 4 Chip Game</title>
         <meta  charset="utf-8">
         <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         <link type="text/css" href="style.css" rel="stylesheet">
+        <script src="functions.js"></script>
     </head>
     <body>
         <div class="jumbotron">
             <h1>Welcome to the 4 Chip Game!</h1>
             <h2>There will be two players, the first one to connect 4 chips WINS!</h2>
             <h3> Let's Get Started! </h3>
-            <button class="btn btn-primary" id="toggle">Start</button>&nbsp;
+            <button class="btn btn-primary" id="toggle" onclick="promptMe()">Start</button>&nbsp;
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Modal1">Instructions</button>
             <div class="modal fade" id="Modal1">
                 <div class="modal-dialog">
