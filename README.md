@@ -16,3 +16,6 @@ I might make an online version where you are connected to a random player or com
 
 **V-0 (28 April,2018)**
 Created the outline of the game. The page is static as of now, I will update the JS file asap!
+
+**V-1 (1 May,2018)**
+Added the completed JS file. The game now works perfectly. (#issues and additions left to be done)
